@@ -1,0 +1,161 @@
+
+/*******
+*******/
+
+/*******DELETE BODY TAG__ USING TO MOCKUP AGAINST BACKGROUND COLOR OF ACTUAL THEME*******/
+body{
+	background:#EEEEEE;
+}
+
+
+#gallery {
+width: 800px;
+margin:0 auto;
+position:relative;
+}
+
+#frame{
+     width: 640px;
+     margin:10px auto;
+    
+}
+#frame img{
+ border: 3px solid #818181;
+}
+#thumbs{
+     position:relative;
+     width:100%;
+     float:left;
+     margin:20px 0 0 0;
+}
+#thumbs li{
+     float: left;
+     width: 125px;
+     padding: 0 0 0 15px;
+     overflow:hidden;
+     height:85px;
+     background:#f4a426;
+     margin:0 10px;
+}
+img.selected{
+     border:3px solid #8C290A;
+}
+span#next{
+     position: absolute;
+     right: 0;
+     top:25%;
+     text-indent: -9999px;
+     background:url("../images/next_prev_arrow.png") no-repeat right 0;
+     height:150px;
+     width:35px;
+}
+span#next:hover{
+     position: absolute;
+     right: 0;
+     top:25%;
+     text-indent: -9999px;
+     background:url("../images/next_prev_arrow.png") no-repeat right -150px;
+     height:150px;
+     width:35px;
+     cursor:pointer;
+}
+span#prev{
+     position: absolute;
+     left: 0;
+     top:25%;
+     text-indent: -9999px;
+     background:url("../images/next_prev_arrow.png") no-repeat 0 0;
+     height:150px;
+     width:35px;
+}
+span#prev:hover{
+     position: absolute;
+     left: 0;
+     top:25%;
+     text-indent: -9999px;
+     background:url("../images/next_prev_arrow.png") no-repeat left -150px;
+     height:150px;
+     width:35px;
+     cursor:pointer;
+}
+#thumb-wrapper{
+     margin:0 auto;
+     height:100px;
+     position:relative;
+}
+span#thumb-next{
+     position: absolute;
+     right: 0;
+     top:25%;
+     text-indent: -9999px;
+     background:url("../images/small_next_prev_arrow.png") no-repeat right 0;
+     height:30px;
+     width:15px;
+     
+}
+span#thumb-next:hover{
+	 position: absolute;
+     right: 0;
+     top:25%;
+     text-indent: -9999px;
+     background:url("../images/small_next_prev_arrow.png") no-repeat right -30px;
+     height:30px;
+     width:15px;
+     cursor:pointer;
+}
+span#thumb-prev{
+     position: absolute;
+     left: 0;
+     top:25%;
+     text-indent: -9999px;
+     background:url("../images/small_next_prev_arrow.png") no-repeat 0 0;
+     height:30px;
+     width:15px;
+}
+span#thumb-prev:hover{
+     position: absolute;
+     left: 0;
+     top:25%;
+     text-indent: -9999px;
+     background:url("../images/small_next_prev_arrow.png") no-repeat 0 -30px;
+     height:30px;
+     width:15px;
+     cursor:pointer;
+}
+span#blow-up{
+     position: absolute;
+     right: 87px;
+     bottom: 138px;
+     background:url(../images/expand_icon.png) 0 0;
+     height:33px;
+     width:33px;
+     text-indent: -9999px;
+     opacity:.50;
+     filter:alpha(opacity=50);
+}
+span#blow-up:hover{
+	opacity:100;
+	filter:alpha(opacity=100);
+	cursor:pointer;
+	
+}
+#thumb-controls{
+     width: 750px;
+     margin:0 auto;
+     height: 50px;
+     position: absolute;
+     bottom: 10px;
+     left:10%;
+     left:0;
+}
+#img-caption{
+	padding:0 0 5px 80px;
+	border-bottom:1px dotted #d9d9d9;
+}
+
+#img-caption p{
+	font-family:'Droid Sans',Arial,Helvetica,sans-serif;
+	color:#888;
+	font-size:11px;
+	font-style:italic;
+}
